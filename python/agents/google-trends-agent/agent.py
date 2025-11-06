@@ -1,8 +1,8 @@
 import os
 from dotenv import load_dotenv
 
-from google_trends_agent.prompt import load_agent_instructions
-from google_trends_agent.tools import execute_bigquery_sql
+from prompt import load_agent_instructions
+from tools import execute_bigquery_sql
 
 from google.adk.agents import LlmAgent, SequentialAgent
 
